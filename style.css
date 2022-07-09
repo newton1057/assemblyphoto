@@ -176,6 +176,10 @@ body {
     
 }
 
+.Album{
+  font-size: 50px;
+}
+
 
 footer{
   background-color: #f8f9fa;
@@ -251,6 +255,7 @@ footer{
   width: 100%;
   margin-left: 2%;
   margin-right: 2%;
+  
 }
 
 
@@ -272,10 +277,17 @@ footer{
   width: 100%;
   position: relative;
   object-fit: cover;
- 
+  border: 5px solid #AFC97E;
   
 }
-  
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover{
+  transition: scale(1.5);
+}
   /* rtl:end:remove */
   
   /* RESPONSIVE CSS

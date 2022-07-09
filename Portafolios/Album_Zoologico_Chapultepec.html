@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body style="background-color: #3B3923 ; color: #B4C292">
     <header>
         <section>
             <nav class="navbar  navbar-expand-lg bg-light fixed-top">
@@ -39,8 +39,16 @@
                             <a class="nav-link" href="#">Inicio</a>
                         </li>
         
-                        <li class="nav-item">
-                            <a class="nav-link" href="/portafolio.html">Portafolio</a>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portafolio
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Portafolios/Album_Zoologico_Chapultepec.html">Zoologico Chapultepec</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="../Portafolios/Album_Retratos.html">Retratos</a></li>
+                            
+                          </ul>
                         </li>
         
                         <li class="nav-item">
@@ -60,7 +68,7 @@
 
 
     <section class="Album">
-        <h1>Zoologico de Chapultepec</h1>
+        <p>Zoologico de Chapultepec</p>
     </section>
     
  <section class="ImplementacionAlbum" >
@@ -90,7 +98,7 @@
 
     <section class="Imagen">
         <div >
-          <img class="crop" src="../Imagenes/Album_Zoologico_de_Chapultepec/IMG_3.jpg" class = "d-block w-100" alt="...">
+          <img class="crop" class="zoom" src="../Imagenes/Album_Zoologico_de_Chapultepec/IMG_3.jpg" class = "d-block w-100" alt="...">
         </div>
         
         
@@ -166,5 +174,6 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 </html>

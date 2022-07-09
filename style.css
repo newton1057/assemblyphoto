@@ -85,6 +85,7 @@ body {
     width: 90%;
   }
 
+
   .Contacto .form {
     width: 100%;
     margin-left: 2%;
@@ -133,7 +134,47 @@ footer{
   margin-top: 2rem;
 }
   
+.SobreMi {
+  padding-top: 5rem;
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
 
+.SobreMi .SobreMiDescripcion {
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.SobreMi .Imagen{
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.SobreMi .Imagen div{
+  height: 90%;
+  overflow: hidden;
+  position: relative;
+}
+
+.SobreMi .Imagen img {
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+ 
+  
+}
+
+.SobreMi .Imagen img {
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+ 
+  
+}
 
   
   
